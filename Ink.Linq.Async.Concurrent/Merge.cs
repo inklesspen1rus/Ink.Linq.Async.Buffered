@@ -54,16 +54,8 @@ namespace Ink.Linq.Async.Concurrent
             }
             finally
             {
-#pragma warning disable CA2016
-                await sources
-                    .ToAsyncEnumerable()
-                    // ReSharper disable once MethodSupportsCancellation
-                    .ForEachAwaitAsync(async x => await x.DisposeAsync());
-                await disposes
-                    .ToAsyncEnumerable()
-                    // ReSharper disable once MethodSupportsCancellation
-                    .ForEachAwaitAsync(x => x);
-#pragma warning restore CA2016
+                await Task.WhenAll(sources.Select(x => x.DisposeAsync().AsTask()));
+                await Task.WhenAll(disposes);
             }
         }
     }
