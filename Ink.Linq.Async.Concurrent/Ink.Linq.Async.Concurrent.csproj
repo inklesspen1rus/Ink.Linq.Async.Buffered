@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;netcoreapp3.0</TargetFrameworks>
+        <Version>0.1.0</Version>
+        <Title>Async Linq with concurrency</Title>
+        <PackageProjectUrl>https://github.com/inklesspen1rus/Ink.Linq.Async.Concurrent</PackageProjectUrl>
+        <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/inklesspen1rus/Ink.Linq.Async.Concurrent</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    </ItemGroup>
+
+</Project>

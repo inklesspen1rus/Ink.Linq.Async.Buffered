@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Linq.Async.Concurrent", "Ink.Linq.Async.Concurrent\Ink.Linq.Async.Concurrent.csproj", "{E3703114-A600-4CA7-93B4-AC2C6AD13E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink.Linq.Async.Concurrent.Tests", "Ink.Linq.Async.Concurrent.Tests\Ink.Linq.Async.Concurrent.Tests.csproj", "{19E310F3-E4F6-45E0-81DC-2A4980D60B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3703114-A600-4CA7-93B4-AC2C6AD13E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3703114-A600-4CA7-93B4-AC2C6AD13E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3703114-A600-4CA7-93B4-AC2C6AD13E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3703114-A600-4CA7-93B4-AC2C6AD13E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E310F3-E4F6-45E0-81DC-2A4980D60B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E310F3-E4F6-45E0-81DC-2A4980D60B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E310F3-E4F6-45E0-81DC-2A4980D60B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E310F3-E4F6-45E0-81DC-2A4980D60B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
