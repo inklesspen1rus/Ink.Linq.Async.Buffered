@@ -1,0 +1,3 @@
+# Work with System.Linq.Async concurrently!
+
+To be written...
